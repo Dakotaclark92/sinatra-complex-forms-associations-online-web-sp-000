@@ -11,7 +11,7 @@ class OwnersController < ApplicationController
   end
 
   post '/owners' do 
-    
+    {"owners"=>{"name"=>"Adele","pet_ids"=>["1", "2"]}}
   end
 
   get '/owners/:id/edit' do 
